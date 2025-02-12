@@ -1,21 +1,18 @@
 import { useState } from "react";
 // import { Routes, Route } from "react-router";
 import "./App.css";
-import { Link, Routes, Route } from "react-router";
+import { Routes, Route } from "react-router";
 import Blue from "./comonents/Blue";
 import Red from "./comonents/Red";
 import Home from "./comonents/Home";
+import Nav from "./comonents/Nav";
 
 function App() {
   return (
     <>
       <div id='container'>
         <h1>Hello React Router!</h1>
-        <div id='navbar'>
-          <Link to='/'>Home</Link>
-          <Link to='/blue'>Blue</Link>
-          <Link to='/red'>Red</Link>
-        </div>
+        <Nav />
         <div id='main-section'>
           <Routes>
             <Route path='/' element={<Home />} />
