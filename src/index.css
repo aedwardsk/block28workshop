@@ -30,15 +30,42 @@ body > div {
 }
 
 .home {
-  background-color: #07b616;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
   color: white;
+  text-align: center;
 }
 
 .red {
-  background-color: #b05f6d;
+  background-color: red;
   color: white;
 }
+
 .blue {
-  background-color: #275db3;
+  background-color: blue;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+
+.orange {
+  background-color: orange;
+  color: white;
+}
+
+.violet {
+  background-color: violet;
+  color: white;
+}
+
+.indigo {
+  background-color: indigo;
   color: white;
 }
