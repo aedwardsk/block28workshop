@@ -69,3 +69,20 @@ body > div {
   background-color: indigo;
   color: white;
 }
+
+#dropdown-item-button {
+  display: none;
+}
+
+/* #navbar {
+  display: none;
+} */
+
+@media (max-width: 768px) {
+  #container #navbar {
+    display: none;
+  }
+  #dropdown-item-button {
+    display: block;
+  }
+}

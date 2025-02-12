@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 const Nav = () => {
   return (
-    <div id='navbar'>
+    <>
       <Link to='/'>Home</Link>
       <Link to='/red'>Red</Link>
       <Link to='/orange'>Orange</Link>
@@ -11,7 +11,7 @@ const Nav = () => {
       <Link to='/blue'>Blue</Link>
       <Link to='/indigo'>Indigo</Link>
       <Link to='/violet'>Violet</Link>
-    </div>
+    </>
   );
 };
 

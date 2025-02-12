@@ -7,13 +7,18 @@ import "./App.css";
 // import Home from "./comonents/Home";
 import Nav from "./comonents/Nav";
 import MainContainer from "./comonents/MainContainer";
+import { Dropdown } from "bootstrap";
+import DropdownItems from "./comonents/Dropdown";
 
 function App() {
   return (
     <>
       <div id='container'>
         <h1>Hello React Router!</h1>
-        <Nav />
+        <div id='navbar'>
+          <Nav />
+        </div>
+        <DropdownItems />
         <MainContainer />
       </div>
     </>
